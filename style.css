@@ -179,6 +179,9 @@ font-weight: 100;
 font-size: 20px;
 margin: 0px 30px;
 }
+.third-img {
+    overflow: hidden;
+}
 .third-img img{
     width: 100%;
     position: relative;
@@ -213,9 +216,45 @@ margin: 0px 30px;
 
 }
 
+.third-img h5{
+    display: block;
+    text-align: center;
+    position: absolute;
+    bottom: -14%;
+    padding: 15px 10px;
+    width: 100%;
+   
+    color: #fff;
+    background-color: #446084;
+    transition: .9s;
+}
+
+.zehra{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.third-card:hover h5{
+  
+    bottom: 0%;
+    
+}
+
+.third-img{
+    position:relative;
+}
+
+.third-content{
+    z-index: 1;
+}
+
 .third-card{
     position: relative;
+    
 }
+
 .third-card:hover i{
   opacity: 1;
   z-index: 1;
